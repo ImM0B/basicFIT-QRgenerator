@@ -1,4 +1,4 @@
-# 🏋️‍♂️ Basic-FIT QR Generator
+# 🏋️‍♂️ BasicFIT-QRGenerator
 
 Generador automático de códigos QR para Basic-FIT con soporte para ejecución continua o única.
 
