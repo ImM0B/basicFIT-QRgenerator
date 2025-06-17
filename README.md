@@ -71,7 +71,3 @@ python basicFITgenerator.py -n "Juan" -l "García" -d "1995-05-15"
 ## ⚠️ Advertencia
 
 Este script es solo para fines educativos. Úsalo de manera responsable y respetando los términos de servicio de Basic-FIT.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles. 
