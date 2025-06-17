@@ -1,11 +1,10 @@
 # 🏋️‍♂️ BasicFIT-QRGenerator
 
-Generador automático de códigos QR para Basic-FIT con soporte para ejecución continua o única.
+Generador automático de códigos QR para Basic-FIT, válidos por 2 semanas desde la fecha de generación.
 
 ## 📋 Requisitos
 
 - Python 3.x
-- Conexión a Internet
 - Las siguientes bibliotecas de Python:
   - requests
   - colorama
