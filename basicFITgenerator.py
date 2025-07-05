@@ -65,10 +65,12 @@ basic_url= "https://member.basic-fit.com/api/signUpForm/signUp"
 password = "basicbasicFIT1234" #Contraseña por defecto para el correo desechable
 header={"Content-Type":"application/json"}
 headers = {
-    "Cookie": "bf-locale=es-ES;bf-country=ES",
+    "Cookie": "bf-locale=es-ES; bf-country=ES",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
     "Accept": "*/*",
-    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "es-ES,es;q=0.9",
+    "Content-Type": "application/json",
+    "Newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjM1MDcxMjkiLCJhcCI6IjUzODU2OTgxMyIsImlkIjoiODM5ZDg4ZjgzODUwNjgwZSIsInRyIjoiZWJkMThhYTk4ZjhhYjc3OTRjNjMxMjZiYjAxMjFjODQiLCJ0aSI6MTc1MTczNzU3NjY1MX19"
 }
 
 def animacion_espera():
@@ -114,6 +116,7 @@ def generar_cuenta():
         "locale":"es-ES",
         "dateOfBirth": f"{fecha_nacimiento}T00:00:00.000Z",
         "tos": True,
+        "campaignId": "1j4E1vAzx2blwpjL4tPcNp",
         "ageConfirmation": True
     }
 
